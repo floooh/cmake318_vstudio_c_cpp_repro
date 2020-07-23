@@ -77,7 +77,7 @@ In cmake 3.18 the ```CompileAsC``` is missing:
 ...which in turn causes Visual Studio to compile this file as C++ (which seems to be triggered
 by having both C and C++ files in the same project).
 
-However this behaviour seems to be triggered by the presense of those command line options:
+However this behaviour seems to be triggered by the presence of those command line options:
 
 ```cmake
 set(CMAKE_CXX_FLAGS "/TP")
